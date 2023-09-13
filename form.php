@@ -18,7 +18,7 @@
     </form>
     <p>Email:</p>
     <form action="teste.php" method="post">
-        <input name="Email" type="email" placeholder="seu@email.com" />
+        <input name="email" type="email" placeholder="seu@email.com" />
         <input name="enviar" type="submit" value="Enviar" />
     </form>
     <p>Estado:</p>
@@ -42,13 +42,16 @@
     </form>
 
     <p>Defina a forma de entrega</p>
-    
-    <form>
-    <input type="radio" id="Entrega" name="met_entrega" value="Entrega">
-    <label for="Entrega">Entrega</label><br>
-    <input type="radio" id="Retirada" name="met_entrega" value="Retirada">
-    <label for="Retirada">Retirada</label><br>  
-    </form>
+
+      <form>
+      <input type="radio" id="Entrega" name="met_entrega" value="Entrega">
+      <label for="Entrega">Entrega</label><br>
+      <input type="radio" id="Retirada" name="met_entrega" value="Retirada">
+      <label for="Retirada">Retirada</label><br>
+      </form>
+
+    <div id="mensagem_erro" style="color: red;"></div>
+
 </body>
 </html>
 
